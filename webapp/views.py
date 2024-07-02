@@ -18,5 +18,5 @@ def add_task(request):
             task.save()
             return redirect('index')
         else:
-            return HttpResponse()
+            return HttpResponse('')
     return render(request, 'add_task.html')
