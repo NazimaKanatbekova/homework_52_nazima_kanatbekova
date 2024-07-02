@@ -1,0 +1,21 @@
+
+[
+{
+  "model": "webapp.task",
+  "pk": 1,
+  "fields": {
+    "description": "Сдать дз",
+    "status": "in_progress",
+    "date": "2024-06-24"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 2,
+  "fields": {
+    "description": "Купить продукты",
+    "status": "new",
+    "date": "2024-07-01"
+  }
+}
+]
