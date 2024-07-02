@@ -16,7 +16,7 @@ def add_task(request):
         if description and status:
             task = Task(description=description, status=status, date=date)
             task.save()
-            return redirect('index')  # Используем правильное имя URL-шаблона для списка задач
+            return redirect('index')
         else:
             return HttpResponse('Не удалось добавить задачу. Проверьте введенные данные.')
 
