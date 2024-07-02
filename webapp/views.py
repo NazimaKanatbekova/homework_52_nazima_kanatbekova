@@ -18,6 +18,5 @@ def add_task(request):
             task.save()
             return redirect('index')
         else:
-            return HttpResponse('Не удалось добавить задачу. Проверьте введенные данные.')
-
+            return HttpResponse()
     return render(request, 'add_task.html')
